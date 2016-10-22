@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule }    from '@angular/http';
 
 
-
 import { GithubService } from '../app/services/github.service';
 
 import { AppComponent }  from './app.component';
