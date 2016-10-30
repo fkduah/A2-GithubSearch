@@ -1,7 +1,7 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule }    from '@angular/http';
-
+import { FormsModule }   from '@angular/forms';
 
 import { GithubService } from '../app/services/github.service';
 
@@ -11,7 +11,7 @@ import { ProfileComponent }  from '../app/components/profile.component';
 
 
 @NgModule({
-  imports: [ BrowserModule, HttpModule ],
+  imports: [ BrowserModule, HttpModule, FormsModule ],
   declarations: [ AppComponent, ProfileComponent ],
   providers: [GithubService],
   bootstrap: [ AppComponent ]
